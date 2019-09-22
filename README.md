@@ -5,11 +5,11 @@
 We recommend using python3 and a virtual environment:
 
 ```
+python3
 tensorflow-gpu == 1.3.0 (CUDA 8.0)
 matplotlib == 3.0.2
 numpy = 1.14.5
 skimage
-other required dependancies
 ```
 
 + `main.py`: Train Siamese network
@@ -81,13 +81,21 @@ It should be note that if a similar task like classification is implented the pe
 
 Distance distribution of positive/negative paris in the embedding space: 
 
-![Val_distribution](./images/Val_distribution.png)
+<center>
+    <img src = "./images/Val_distribution.png"
+         style = "zoom:60%"/>
+</center>
 
 ## Tesing Results
 
 Distance distribution of positive/negative paris in the embedding space: 
 
-![Test_distribution](./images/Test_distribution.png)
+<center>
+    <img src = "./images/Test_distribution.png"
+         style = "zoom:60%"/>
+</center>
+
+
 
 ## Resources
 
