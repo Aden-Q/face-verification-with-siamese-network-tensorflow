@@ -67,11 +67,19 @@ When the program completes, it will generates files **result.csv, distances.csv 
 
 Loss tendancy:
 
-![ResNet_cost](./images/ResNet_cost.jpg)
+<center>
+    <img src = "./images/ResNet_cost.jpg"
+         style = "zoom:90%"/>
+</center>
 
 Accuracy tendancy:
 
-![VGG_accuracy](./images/VGG_accuracy.jpg)
+<center>
+    <img src = "./images/VGG_accuracy.jpg"
+         style = "zoom:90%"/>
+</center>
+
+
 
 ## Evaluation Results
 
@@ -83,7 +91,7 @@ Distance distribution of positive/negative paris in the embedding space:
 
 <center>
     <img src = "./images/Val_distribution.png"
-         style = "zoom:60%"/>
+         style = "zoom:50%"/>
 </center>
 
 ## Tesing Results
@@ -92,7 +100,7 @@ Distance distribution of positive/negative paris in the embedding space:
 
 <center>
     <img src = "./images/Test_distribution.png"
-         style = "zoom:60%"/>
+         style = "zoom:50%"/>
 </center>
 
 
